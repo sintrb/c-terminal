@@ -70,9 +70,11 @@ echo World
 echo -e "\033[10B" # 下移10行
 ```
 下面是在不同的中断下执行得到的结果截图：
-ANSI:
+#### ANSI:
 > ![image](https://raw.githubusercontent.com/sintrb/c-terminal/master/scr-shot/ansi.png)
-Linux:
+
+#### Linux:
 > ![image](https://raw.githubusercontent.com/sintrb/c-terminal/master/scr-shot/linux.png)
-SCOANSI:
+
+#### SCOANSI:
 > ![image](https://raw.githubusercontent.com/sintrb/c-terminal/master/scr-shot/scoansi.png)
