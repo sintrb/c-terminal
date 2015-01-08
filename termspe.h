@@ -5,8 +5,8 @@
 // 清屏
 void term_clear(void);
 
-// 跳转光标到x列,y行
-void term_goto(int x, int y);
+// 跳转光标到r行c列
+void term_goto(int r, int c);
 
 // 关闭光标显示
 void term_curoff(void);
