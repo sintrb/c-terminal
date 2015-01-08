@@ -25,4 +25,32 @@ void term_savecur(void);
 // 恢复光标位置
 void term_resumecur(void);
 
+// 光标下移n行
+void term_down(int n);
+
+// 光标上移n行
+void term_up(int n);
+
+// 光标左移b列
+void term_left(int n);
+
+// 光标右移n列
+void term_right(int n);
+
+// 开高亮
+void term_highlight();
+
+// 下划线
+void term_underline();
+
+// 闪烁
+void term_flash();
+
+// 反显
+void term_invert();
+
+// 消隐
+void term_blank();
+
+
 #endif // _TERMSPE_H

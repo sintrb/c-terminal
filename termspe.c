@@ -48,3 +48,56 @@ void term_resumecur(void)
 	printf("\033[u");
 }
 
+// 光标下移n行
+void term_down(int n)
+{
+	printf("\033[%dB", n);
+}
+
+// 光标上移n行
+void term_up(int n)
+{
+	printf("\033[%dA", n);
+}
+
+// 光标左移b列
+void term_left(int n)
+{
+	printf("\033[%dD", n);
+}
+
+// 光标右移n列
+void term_right(int n)
+{
+	printf("\033[%dC", n);
+}
+
+// 开高亮
+void term_highlight()
+{
+	printf("\033[1m");
+}
+
+// 下划线
+void term_underline()
+{
+	printf("\033[4m");
+}
+
+// 闪烁
+void term_flash()
+{
+	printf("\033[5m");
+}
+
+// 反显
+void term_invert()
+{
+	printf("\033[7m");
+}
+
+// 消隐
+void term_blank()
+{
+	printf("\033[8m");
+}
