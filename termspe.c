@@ -11,7 +11,7 @@ void term_clear(void)
 }
 
 // 跳转光标到r行c列
-void term_goto(int r, int c);
+void term_goto(int r, int c)
 {
   printf("\033[%d;%df",r,c);
 }
