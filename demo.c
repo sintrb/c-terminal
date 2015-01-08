@@ -1,0 +1,21 @@
+#include "termspe.h"
+
+
+
+int main()
+{
+	
+	term_clear();	// «Â∆¡
+	
+	printf("Hello World\n");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	return 0;
+}
